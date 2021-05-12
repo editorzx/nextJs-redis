@@ -38,6 +38,7 @@ export default function LeftMenu({}: Props): ReactElement {
 	  { key: '3', label: 'จัดการรายการสินค้า', path: '/productdata', icon: <UploadOutlined />, positionNeed: 3 },
 	  { key: '4', label: 'บันทึกการโอนสินค้า', path: '/tranferpd', icon: <TransactionOutlined />, positionNeed: 3 },
 	  { key: '5', label: 'จัดการบริษัทคู่ค้า', path: '/dealersdata', icon: <RadarChartOutlined />, positionNeed: 3 },
+	  { key: '6', label: 'ขายสินค้า', path: '/sellproduct', icon: <MenuFoldOutlined />, positionNeed: 1 },
 	]
 	
     const Goto = (pages) => {
